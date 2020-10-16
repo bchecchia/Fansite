@@ -4,3 +4,245 @@
 }
 *{text-decoration: none;
 }
+html, body {
+    padding: 0;
+    margin: 0;
+    /*height: 100%;
+    width: 100%;*/
+    background:#2e2c38;
+    /*font-family: 'Nunito', sans-serif;*/
+    font-family: 'Apple Chancery', cursive;
+}
+
+
+html {
+    overflow-x: hidden;
+}
+a:link {
+    text-decoration: none;
+    color:inherit;
+}
+#content-full {
+    text-align: justify;
+}
+#innertitlediv {
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#beginning {
+    position: absolute;
+    right: 5%;
+    top: 200px;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+}
+#album1{
+    position: absolute;
+    top: 500px;
+    left: 5%;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+}
+#album2 {
+    position: absolute;
+    top: 800px;
+    right: 5%;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+}
+#album3{
+    position: absolute;
+    top: 1100px;
+    left: 5%;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+}
+#album4 {
+    position: absolute;
+    right: 5%;
+    top: 1400px;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+}
+#album5 {
+    position: absolute;
+    top: 1700px;
+    left: 5%;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+}
+#album6 {
+    position: absolute;
+    right: 5%;
+    top: 2000px;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+}
+
+
+#album7 {
+    position: absolute;
+    top: 2300px;
+    left: 5%;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+}
+
+
+/*********************************/
+
+.connect {
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+ul.connect {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px; 
+}
+.connect li {
+    display:inline;
+    list-style:none;
+    float:left;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+.connect li a {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.connect li div {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.mainTitle{
+    top:0px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: table;
+    text-align: center;
+}
+.mainBody{
+    height: 2750px;
+    width: 100%;
+    background-image: url("../images/windingRoad2.png");
+    /*background-repeat: repeat-y;*/
+    background-size: 100% 1200px;
+}
+.authorbody, .aboutbody {
+   background: #F8ECC2;
+   height: 1350px;
+   width: 100%;
+   text-align: center;
+}
+#moreinfo {
+    padding: 10px;
+}
+#remains{
+    width: 650px;
+    padding: 50px;
+    margin: 0 auto;
+}
+#video {
+    padding: 10px;
+}
+#titlediv {
+    vertical-align: middle;
+    display: table-cell;
+}
+#tabs {
+   float:left;
+   background-color: #2e2c38;
+   color: white;
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+ul.tab {
+    clear:left;
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #ccc;*/
+    background-color: transparent;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+
+
+ul.tab li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 22px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #F8ECC2;
+    color: black;
+}
+
+.copy-section {
+    font-family: 'Nunito', sans-serif;
+    padding: 2em 0;
+    background: #2e2c38;
+    text-align: center;
+}
+.copy-section p {
+    font-size: 1em;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.copy-section a {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
